@@ -6,7 +6,6 @@ public class Consumer implements Runnable {
                     Table.showNumber(false, true);
                     continue;
                 } else {
-                    Table.usedPosition--;
                     Table.showNumber(false, false);
                 }
             }
